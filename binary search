@@ -1,3 +1,5 @@
+
+#this is binary search
 pos=-1
 def search(l,n):
     lower=0
