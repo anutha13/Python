@@ -10,3 +10,11 @@ def fibo(num):
         print(c)
 
 fibo(5)
+
+#copy a image and save it into another jpg
+f=open('pic.PNG','rb')       #read binary means pic is stored in binary and we can only read pic by rb
+
+f1=open('mypic.JPG','wb')
+for i in f:
+   f1.write(i)
+
