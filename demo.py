@@ -36,3 +36,10 @@ print("bye")
 
 # that part is called thread
 # can i execute 2 function on different cores at the same time
+
+#zip() zips two list with each other
+list=['anu','thakur','king]
+num=['ab','cd','ef']
+zipped=zip(list,num)
+      for (a,b) in zipped:
+            print(a,b)
